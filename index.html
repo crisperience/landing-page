@@ -1,74 +1,96 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta charset="utf-8" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+      rel="stylesheet"
+    />
     <link rel="stylesheet" href="./css/styles.css" />
     <title>Landing Page</title>
   </head>
   <body>
-    <header>
-      <div class="logo">Header logo</div>
-      <nav>
-        <ul>
-          <li><a href="#">header link one</a></li>
-          <li><a href="#">header link two</a></li>
-          <li><a href="#">header link three</a></li>
-        </ul>
-      </nav>
-    </header>
-
-    <main>
-      <section class="hero">
+    <div class="header-hero-section dark-blu-bg">
+      <div class="header-bar">
+        <span class="bright-white midsized">Header Logo</span>
+        <a class="secondary-white smallest">header link one</a>
+        <a class="secondary-white smallest">header link two</a>
+        <a class="secondary-white smallest">header link three</a>
+      </div>
+      <div class="hero-section">
         <div class="hero-text">
-          <h1>This website is awesome</h1>
-          <p>
+          <h2 class="bright-white">This website is awesome</h2>
+          <p class="secondary-white smallest">
             This website has some subtext that goes here under the main title.
-            It's a smaller font and the color is lower contrast.
+            It's a smaller font and the color is lower contrast
           </p>
-          <button>Sign up</button>
+          <button class="bright-white smallest">Sign up</button>
         </div>
-        <div class="hero-image">
-          <p>This is a placeholder for an image</p>
+        <div class="hero-image bright-white smallest">
+          this is a placeholder for an image
         </div>
-      </section>
+      </div>
+    </div>
 
-      <section class="info">
-        <h2>Some random information.</h2>
-        <div class="info-cards">
-          <div class="card">
+    <div class="image-info-section">
+      <h2 class="dark-blu-txt largeish">Some random information.</h2>
+      <div class="image-holder">
+        <div class="image-info-pair">
+          <div class="info-image"></div>
+          <p class="dark-blu-txt smallest">
             this is some subtext under an illustration or image
-          </div>
-          <div class="card">
-            this is some subtext under an illustration or image
-          </div>
-          <div class="card">
-            this is some subtext under an illustration or image
-          </div>
-          <div class="card">
-            this is some subtext under an illustration or image
-          </div>
+          </p>
         </div>
-      </section>
+        <div class="image-info-pair">
+          <div class="info-image"></div>
+          <p class="dark-blu-txt smallest">
+            this is some subtext under an illustration or image
+          </p>
+        </div>
+        <div class="image-info-pair">
+          <div class="info-image"></div>
+          <p class="dark-blu-txt smallest">
+            this is some subtext under an illustration or image
+          </p>
+        </div>
+        <div class="image-info-pair">
+          <div class="info-image"></div>
+          <p class="dark-blu-txt smallest">
+            this is some subtext under an illustration or image
+          </p>
+        </div>
+      </div>
+    </div>
 
-      <section class="quote">
-        <blockquote>
+    <div class="quote-section">
+      <div class="quote-holder">
+        <p class="quote-text dark-blu-tx largeish">
           This is an inspiring quote, or a testimonial from a customer. Maybe
           it's just filling up space, or maybe people will actually read it. Who
           knows? All I know is that it looks nice.
-          <cite>-Thor, God of Thunder</cite>
-        </blockquote>
-      </section>
+        </p>
+        <p class="quote-attribution dark-blu-txt midsized">
+          - Thor, God of Thunder
+        </p>
+      </div>
+    </div>
 
-      <section class="cta">
-        <p>Call to action! It's time!</p>
-        <p>Sign up for our product by clicking that button right over there!</p>
-        <button>Sign up</button>
-      </section>
-    </main>
+    <div class="call-to-action-section">
+      <div class="call-to-action">
+        <div class="cta-text">
+          <h2 class="bright-white midsized">Call to action! It's time!</h2>
+          <p class="secondary-white smallest">
+            Sign up for our product by clicking that button right over there!
+          </p>
+        </div>
+        <button class="bright-white smallest">Sign up</button>
+      </div>
+    </div>
 
-    <footer>
-      <p>Copyright © The Odin Project 2021</p>
-    </footer>
+    <div class="footer dark-blu-bg secondary-white smallest">
+      Copyright © CRISP 2024
+    </div>
   </body>
 </html>
